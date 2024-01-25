@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "b266748e-e9a2-4f5c-8f71-aef6bc6a68f0",
+		"name": "Counseling",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29128515",
+		"_collection_link": "https://gold-star-140813.postman.co/workspace/New-Team-Workspace~19eb137b-233a-401e-805a-6ab52152f32c/collection/29128515-b266748e-e9a2-4f5c-8f71-aef6bc6a68f0?action=share&source=collection_link&creator=29128515"
+	},
+	"item": [
+		{
+			"name": "GetAnswersByCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Answers/GetAnswersByCategory/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Answers",
+						"GetAnswersByCategory",
+						"101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllCategories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Category/GetAllCategories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Category",
+						"GetAllCategories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllTests",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Test/GetAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Test",
+						"GetAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTestsByCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Test/GetTestByCategory/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Test",
+						"GetTestByCategory",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTestById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Test/GetTestById/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Test",
+						"GetTestById",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMbti",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/Test/GetMbti",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Test",
+						"GetMbti"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateAnswer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"AnswerID\": 104,\r\n  \"Title\": \"My Test5\",\r\n  \"Score\": 10,\r\n  \"CategoryID\": 101\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Answers/CreateAnswer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Answers",
+						"CreateAnswer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCategories",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CategoryID\": 101,\r\n    \"Name\": \"Test1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Category/CreateCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Category",
+						"CreateCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"TestID\":500,\r\n    \"Question\":\"How are you bro?\",\r\n    \"CategoryID\":101\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/Test/CreateTest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"Test",
+						"CreateTest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
