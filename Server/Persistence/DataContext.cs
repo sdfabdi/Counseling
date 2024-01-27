@@ -805,6 +805,7 @@ public class DataContext: DbContext
                     Score = 3,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 2,
@@ -812,6 +813,7 @@ public class DataContext: DbContext
                     Score = 2,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 3,
@@ -819,6 +821,7 @@ public class DataContext: DbContext
                     Score = 1,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 4,
@@ -826,6 +829,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 5,
@@ -833,6 +837,7 @@ public class DataContext: DbContext
                     Score = -1,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 6,
@@ -840,6 +845,7 @@ public class DataContext: DbContext
                     Score = -2,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 7,
@@ -847,6 +853,7 @@ public class DataContext: DbContext
                     Score = -3,
                     IsPhoto = false,
                     CategoryID = 1,
+                    Value = ""
                      },       
 
                 //PHQ-9 Answers
@@ -857,6 +864,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 2,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 9,
@@ -864,6 +872,7 @@ public class DataContext: DbContext
                     Score = 1,
                     IsPhoto = false,
                     CategoryID = 2,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 10,
@@ -871,6 +880,7 @@ public class DataContext: DbContext
                     Score = 2,
                     IsPhoto = false,
                     CategoryID = 2,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 11,
@@ -878,6 +888,7 @@ public class DataContext: DbContext
                     Score = 3,
                     IsPhoto = false,
                     CategoryID = 2,
+                    Value = ""
                      },   
                 
                 //Seed GAD-7 Answers
@@ -888,6 +899,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 3,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 13,
@@ -895,6 +907,7 @@ public class DataContext: DbContext
                     Score = 1,
                     IsPhoto = false,
                     CategoryID = 3,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 14,
@@ -902,6 +915,7 @@ public class DataContext: DbContext
                     Score = 2,
                     IsPhoto = false,
                     CategoryID = 3,
+                    Value = ""
                      },
                 new Answer {
                     AnswerID = 15,
@@ -909,6 +923,7 @@ public class DataContext: DbContext
                     Score = 3,
                     IsPhoto = false,
                     CategoryID = 3,
+                    Value = ""
                 },
 
                 //Additional answers
@@ -919,6 +934,7 @@ public class DataContext: DbContext
                     Score = 1,
                     IsPhoto = true,
                     CategoryID = 4,
+                    Value = "assets/LightBlue.png",
                 },
                 new Answer {
                     AnswerID = 17,
@@ -926,6 +942,7 @@ public class DataContext: DbContext
                     Score = 2,
                     IsPhoto = true,
                     CategoryID = 4,
+                    Value = "assets/Yellow.png",
                 },
                 new Answer {
                     AnswerID = 18,
@@ -933,6 +950,7 @@ public class DataContext: DbContext
                     Score = 3,
                     IsPhoto = true,
                     CategoryID = 4,
+                    Value = "assets/Red.png",
                 },
                 new Answer {
                     AnswerID = 19,
@@ -940,6 +958,7 @@ public class DataContext: DbContext
                     Score = 1,
                     IsPhoto = true,
                     CategoryID = 5,
+                    Value = "assets/Day.png"
                 },
                 new Answer {
                     AnswerID = 20,
@@ -947,6 +966,7 @@ public class DataContext: DbContext
                     Score = 2,
                     IsPhoto = true,
                     CategoryID = 5,
+                    Value = "assets/Night.png"
                 },
                 new Answer {
                     AnswerID = 21,
@@ -954,6 +974,7 @@ public class DataContext: DbContext
                     Score = 1,
                     IsPhoto = true,
                     CategoryID = 6,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 22,
@@ -961,6 +982,7 @@ public class DataContext: DbContext
                     Score = 2,
                     IsPhoto = true,
                     CategoryID = 6,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 23,
@@ -968,6 +990,7 @@ public class DataContext: DbContext
                     Score = 3,
                     IsPhoto = true,
                     CategoryID = 6,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 24,
@@ -975,20 +998,23 @@ public class DataContext: DbContext
                     Score = 4,
                     IsPhoto = true,
                     CategoryID = 6,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 25,
                     Title = "Sad Image",
                     Score = 0,
-                    IsPhoto = false,
+                    IsPhoto = true,
                     CategoryID = 7,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 26,
                     Title = "Joyful Image",
                     Score = 0,
-                    IsPhoto = false,
+                    IsPhoto = true,
                     CategoryID = 8,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 27,
@@ -996,6 +1022,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 9,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 28,
@@ -1003,6 +1030,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 10,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 29,
@@ -1010,6 +1038,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 11,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 30,
@@ -1017,6 +1046,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 12,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 31,
@@ -1024,6 +1054,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 13,
+                    Value = ""
                 },
                 new Answer {
                     AnswerID = 32,
@@ -1031,6 +1062,7 @@ public class DataContext: DbContext
                     Score = 0,
                     IsPhoto = false,
                     CategoryID = 14,
+                    Value = ""
                 }
                 
             );

@@ -13,8 +13,9 @@ namespace Domain.Model
         public int Score { get; set; }
         public bool IsPhoto { get; set; }
         public int CategoryID { get; set; }
-        public int Value { get; set; }
+        public string Value { get; set; }
         public virtual Category Category { get; set; }
     }
+
 }
 
