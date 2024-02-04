@@ -2144,19 +2144,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sadaf\\.nuget\\packages\\": {}
+    "/Users/amirrezasokhankhosh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\API\\API.csproj",
+      "projectUniqueName": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/API/API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\Sadaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\API\\obj\\",
+      "projectPath": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/API/API.csproj",
+      "packagesPath": "/Users/amirrezasokhankhosh/.nuget/packages/",
+      "outputPath": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sadaf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/amirrezasokhankhosh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2168,8 +2168,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Application\\Application.csproj"
+            "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Application/Application.csproj": {
+              "projectPath": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Application/Application.csproj"
             }
           }
         }
@@ -2214,24 +2214,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.23, 6.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.23, 6.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.23, 6.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.23, 6.0.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2240,7 +2222,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

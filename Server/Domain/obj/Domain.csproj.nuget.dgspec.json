@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Domain\\Domain.csproj": {}
+    "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Domain/Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Domain\\Domain.csproj": {
+    "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Sadaf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sadaf\\Downloads\\Counseling\\Server\\Domain\\obj\\",
+        "projectPath": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Domain/Domain.csproj",
+        "packagesPath": "/Users/amirrezasokhankhosh/.nuget/packages/",
+        "outputPath": "/Users/amirrezasokhankhosh/Documents/Workstation/sadaf/Counseling/Server/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Sadaf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/amirrezasokhankhosh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -64,26 +64,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.23, 6.0.23]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.23, 6.0.23]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.23, 6.0.23]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
